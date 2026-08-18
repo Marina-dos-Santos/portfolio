@@ -1,0 +1,58 @@
+.about {
+    background-color: var(--secondary-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
+}
+.container-losango {
+    width: 180px;
+    height: 180px;
+    background-color: var(--primary-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: rotate(45deg);
+    overflow: hidden; 
+    border: 5px solid var(--primary-color);
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.container-losango img {
+  width: 140%;           
+  height: 140%;
+  object-fit: cover;    
+  transform: rotate(-45deg);
+}
+
+.hero-text-container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.hero-text-container h1 {
+    font-size: 1.875rem;
+    font-family: 'Montserrat', sans-serif;
+    color: var(--primary-color);
+}
+.hero-text-container p {
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
+    padding: 5px;
+    border-radius: 20px;
+}
+.hero-text-container a {
+    text-decoration: none;
+    color: var(--primary-color);
+    cursor: pointer;
+}
+.hero-icons {
+    display: flex;
+    gap: 20px;
+}
