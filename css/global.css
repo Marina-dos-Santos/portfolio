@@ -30,3 +30,16 @@ button {
 html {
     font-family: 'Montserrat', sans-serif;
 }
+
+h2.section-title {
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+@media screen and (min-width: 768px) {
+    h2.section-title {
+        font-size: 1.25rem;
+    }
+}

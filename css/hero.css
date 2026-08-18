@@ -1,4 +1,4 @@
-.about {
+.hero {
     background-color: var(--secondary-color);
     display: flex;
     flex-direction: column;
@@ -58,7 +58,7 @@
 }
 
 @media screen and (min-width: 768px) {
-    .about {
+    .hero {
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
@@ -87,7 +87,7 @@
 .hero-text-container h1 {
     font-size: 3.625rem;
 }
-.about {
+.hero {
     justify-content: space-around;
 }
 .hero-icons img {
