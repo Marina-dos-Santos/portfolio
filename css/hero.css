@@ -1,0 +1,98 @@
+.about {
+    background-color: var(--secondary-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0;
+}
+.container-losango {
+    width: 180px;
+    height: 180px;
+    background-color: var(--primary-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: rotate(45deg);
+    overflow: hidden; 
+    border: 5px solid var(--primary-color);
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.container-losango img {
+  width: 140%;           
+  height: 140%;
+  object-fit: cover;    
+  transform: rotate(-45deg);
+}
+
+.hero-text-container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.hero-text-container h1 {
+    font-size: 1.875rem;
+    font-family: 'Montserrat', sans-serif;
+    color: var(--primary-color);
+}
+.hero-text-container p {
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
+    padding: 5px;
+    border-radius: 20px;
+}
+.hero-text-container a {
+    text-decoration: none;
+    color: var(--primary-color);
+    cursor: pointer;
+}
+.hero-icons {
+    display: flex;
+    gap: 20px;
+}
+
+@media screen and (min-width: 768px) {
+    .about {
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.hero-text-container {
+    text-align: left;
+    align-items: flex-start;
+}
+.hero-text-container h1 {
+    font-size: 2.5rem;
+}
+.hero-text-container p {
+    font-size: 1.5rem;
+}
+.hero-icons img {
+    width: 40px;
+    height: 40px;
+}
+}
+
+@media screen and (min-width: 1024px) {
+    .container-losango {
+    width: 250px;
+    height: 250px;
+}
+.hero-text-container h1 {
+    font-size: 3.625rem;
+}
+.about {
+    justify-content: space-around;
+}
+.hero-icons img {
+    width: 60px;
+    height: 60px;
+}
+
+}
