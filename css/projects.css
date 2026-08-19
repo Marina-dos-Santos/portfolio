@@ -1,0 +1,88 @@
+.projects {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.project-cards {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.project-card {
+    width: 90%;
+    
+}
+.project-card a {
+    text-decoration: none;
+}
+
+.project-image:hover{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.project-hover-text {
+    color: #ffffff;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.2rem;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    opacity: 0;
+    transition: opacity 0.3s ease; 
+}
+.project-image:hover .project-hover-text {
+    opacity: 1;
+}
+
+.project-image.psicologa {
+    background-image: url('/img/Psicologa_clinica.png');
+    background-size: cover;                 
+    background-position: center;     
+    background-repeat: no-repeat;       
+    width: 100%;
+    height: 130px;
+    border-radius: 20px 20px 0 0;
+}
+.project-image.tecboard {
+    background-image: url('/img/tecboard.png');
+    background-size: cover;                 
+    background-position: center;     
+    background-repeat: no-repeat;       
+    width: 100%;
+    height: 130px;
+    border-radius: 20px 20px 0 0;
+}
+
+.project-info {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: var(--primary-color);
+    border-radius: 0 0 20px 20px;
+
+}
+
+.project-title {
+    color: var(--secondary-color);
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 0;
+}
+.project-icon {
+    margin-right: 10px;
+}
