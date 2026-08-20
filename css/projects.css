@@ -5,7 +5,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 20px;
+    gap: 40px;
 }
 .project-cards {
     width: 90%;
@@ -33,7 +33,7 @@
 .project-hover-text {
     color: #ffffff;
     font-family: "Montserrat", sans-serif;
-    font-size: 1.2rem;
+    font-size: 1rem;
     width: 100%;
     height: 100%;
     display: flex;
@@ -41,7 +41,8 @@
     justify-content: center;
     background-color: rgba(0, 0, 0, 0.7);
     opacity: 0;
-    transition: opacity 0.3s ease; 
+    transition: opacity 0.3s ease;
+    border-radius: 20px 20px 0 0;
 }
 .project-image:hover .project-hover-text {
     opacity: 1;
@@ -85,4 +86,16 @@
 }
 .project-icon {
     margin-right: 10px;
+}
+
+@media screen and (min-width: 768px) {
+    .project-card {
+    max-width: 350px;
+    
+}
+.project-cards {
+    flex-direction: row;
+    justify-content: center;
+}
+
 }
