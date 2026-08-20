@@ -36,6 +36,7 @@ h2.section-title {
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
     font-weight: bold;
+    margin: 0;
 }
 
 @media screen and (min-width: 768px) {
