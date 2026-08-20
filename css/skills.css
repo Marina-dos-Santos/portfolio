@@ -1,0 +1,32 @@
+.skills {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 50px 0;
+}
+ul.skills-list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0;
+    gap: 20px;
+}
+.skills-list li {
+    list-style: none;
+    text-transform: uppercase;
+}
+.skills-list li:not(:last-child)::after {
+    content: "|";
+    margin-left: 20px;    
+    color: var(--secondary-color);
+    opacity: 1;  
+}
+@media screen and (min-width: 768px) {
+    .skills-list li {
+    font-size: 20px;
+}
+}
