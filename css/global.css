@@ -29,6 +29,8 @@ button {
 }
 html {
     font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+    scroll-padding-top: 100px; 
 }
 
 h2.section-title {
