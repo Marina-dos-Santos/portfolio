@@ -53,7 +53,7 @@
 }
 
 .project-image.psicologa {
-    background-image: url('/img/Psicologa_clinica.png');
+    background-image: url('../img/psicologa_clinica.png');
     background-size: cover;                 
     background-position: center;     
     background-repeat: no-repeat;       
@@ -62,7 +62,7 @@
     border-radius: 20px 20px 0 0;
 }
 .project-image.tecboard {
-    background-image: url('/img/tecboard.png');
+    background-image: url('../img/tecboard.png');
     background-size: cover;                 
     background-position: center;     
     background-repeat: no-repeat;       
