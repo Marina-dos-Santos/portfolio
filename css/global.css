@@ -40,6 +40,13 @@ h2.section-title {
     font-weight: bold;
     margin: 0;
 }
+.icone {
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+.icone:hover {
+    transform: scale(1.2);
+}
 
 @media screen and (min-width: 768px) {
     h2.section-title {
