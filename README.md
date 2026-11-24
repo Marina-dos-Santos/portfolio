@@ -7,6 +7,6 @@ Repositório do meu portfólio pessoal, onde reúno minha apresentação, projet
 Este projeto é um site estático criado para apresentar meu trabalho e minha trajetória profissional. Ele foi desenvolvido do zero, com foco em um layout limpo, responsivo e de fácil navegação.
 
 ## Tecnologias utilizadas🛠️
-HTML5: estrutura das páginas
-CSS3: estilização e responsividade
+HTML5: estrutura das páginas<br>
+CSS3: estilização e responsividade<br>
 JavaScript: interações e comportamentos da página
